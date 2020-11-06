@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+span{
+    font-family: 'Titillium Web', sans-serif;
+    z-index: 1;
+}
+
+i{
+    padding-right: 10px;
+}
+
+.dessus{
+    float: top;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+.titre{
+    padding-left: 450px;
+    padding-top: 100px;
+}
+
+.gauche{
+    padding-top: 50px;
+    padding-left: 35px;
+    position: relative;
+    float: left;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Gugi', cursive;
+}
+
+.droite{
+    padding-top: 50px;
+    padding-right: 35px;
+    position: relative;
+    float: right;
+}
+
+.menu{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.share{
+    font-size: 14px;
+    top: 50px;
+    right: -95px;
+    color: #8d908e;
+}
+
+.i1{
+    display: inline-block;
+    position: relative;
+    background-image: url("image1.png");
+    width: 328px;
+    height: 306px;
+    left: 686px;
+    top: -150px;
+    z-index: -1;
+}
+
+.i1>p{
+    padding-top: 40px;
+}
+
+.groupe{
+    position: relative;
+    text-align: center;
+}
+
+.text{
+    display: inline-block;
+    position: relative;
+    padding-left: 580px;
+    padding-right: 550px;
+}
+
+.i2{
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    background-image: url("image2.png");
+    width: 523px;
+    height: 491px;
+}
+
+.i3{
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    background-image: url("image3.png");
+    width: 523px;
+    height: 490px;
+}
+
+.i4{
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    background-image: url("image4.png");
+    width: 1086px;
+    height: 723px;
+}
+
+.i5{
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    background-image: url("image5.png");
+    width: 523px;
+    height: 491px;
+}
+
+.i6{
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    background-image: url("image6.png");
+    width: 523px;
+    height: 491px;
+}
+
+.i7{
+    display: inline-block;
+    position: relative;
+    margin: 150px 15px 15px;
+    background-image: url("image7.png");
+    width: 158px;
+    height: 105px;
+}
+
+.i8{
+    display: inline-block;
+    position: relative;
+    margin: 150px 15px 15px;
+    background-image: url("image8.png");
+    width: 115px;
+    height: 160px;
+}
+
+.pre{
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    top: 35px;
+    right: 95px;
+}
+
+.t2{
+    display: inline-block;
+    margin-right: 75px;
+    margin-left: 75px;
+    position: relative;
+}
+
+.back{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+.next{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    top: 50px;
+    left: 65px;
+}
+
+.toutEnBas{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.emoji{
+    padding-top: 100px;
+    padding-bottom: 35px;
+}
+
+.ff{
+    padding-top: 45px;
+}
+
+.red{
+    color: red;
+}
